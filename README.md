@@ -2,7 +2,11 @@
 
 go-names provides name lists for working with frequent names and nicknames.
 
+Names are not necessarily limited to personal names, like first and last names.
+
 ## Common (Frequent Names)
+
+Common provides lists for the most common names.
 
 To get a list of the 10 most frequent first names, use it like this:
 
@@ -34,6 +38,12 @@ and represent the 5,000 most common first/middle and last names, as well as
 their relative frequency. E.g. the name `Michael` is the most popular name in
 that source, with 1.33% of the entries having this as either their first or
 middle name.
+
+### US_CITY Preset
+
+This preset provides the most common cities in the US (common as in population
+size). Hence, the frequency is based on the population size of each city and the
+total US population size. The list is based on publicly available data.
 
 ## Canonical (Base Name)
 
